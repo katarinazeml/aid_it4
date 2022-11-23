@@ -2,11 +2,11 @@
     font-family: "poppins", sans-serif;
 }
 body{
-    background: #8009f8;
+    background: #8255ef;
     margin: 0;
     padding: 0;
     font-size: 16px;
-    color:#8009f8;
+    color:#8255ef;
     font-weight: 300;
 }
 #login-box{
@@ -33,7 +33,7 @@ h1{
 }
 div a{
     font-weight: 100;
-    color: #8009f8;
+    color: #8255ef;
     font-size: 15px;
     text-align: center;
     top: -20px;
@@ -59,7 +59,7 @@ input[type="submit"]
     margin-bottom: 28px;
     width: 120px;
     height: 32px;
-    background: #8009f8;
+    background: #8255ef;
     border: none;
     border-radius: 2px;
     color: #fff;
