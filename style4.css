@@ -1,0 +1,90 @@
+*{
+    font-family: "poppins", sans-serif;
+}
+body{
+    background: #8009f8;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color:#8009f8;
+    font-weight: 300;
+}
+#login-box{
+    position:relative;
+    margin: 5% auto;
+    height: 400px;
+    width: 600px;
+    background: #f4f2f7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+.left-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+}
+h1{
+    margin: 0 0 20px 0;
+    font-weight: 300;
+    font-size: 23px;
+}
+div a{
+    font-weight: 100;
+    color: #8009f8;
+    font-size: 15px;
+    text-align: center;
+    top: -20px;
+}
+input[type="text"],
+input[type="password"]
+{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+input[type="submit"]
+{
+    margin-bottom: 28px;
+    width: 120px;
+    height: 32px;
+    background: #8009f8;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus
+{
+    background: #5b03b3;
+    transition: 0.2s ease;
+    
+}
+.right-box
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+    background-image: url(pexels.png);
+}
