@@ -29,7 +29,7 @@ body{
 h1{
     margin: 0 0 20px 0;
     font-weight: 300;
-    font-size: 23px;
+    font-size: 21px !important;
 }
 div a{
     font-weight: 100;
